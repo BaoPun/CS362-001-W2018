@@ -211,7 +211,7 @@ public class TimeTable {
 	        	Appt tempAppt=appts.get(i);
 	        	if(tempAppt.equals(appt)){
 	        		appts.remove(i);
-					appts.add(i); //bug: after removing the appointment, readd it back in
+					appts.add(tempAppt); //bug: after removing the appointment, readd it back in
 	        		return appts;
 	        	}
 	        		
