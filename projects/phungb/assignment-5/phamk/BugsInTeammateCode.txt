@@ -1,0 +1,4 @@
+There were 2 bugs that were detected in Kevin Pham's code:
+1 was making an appointment valid if the minute time was either less than 0 or greater than 59.
+Another was in CalDay, where instead of properly starting from i = 0, i = 1 instead.  
+.
